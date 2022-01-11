@@ -1,0 +1,336 @@
+/* body{
+  font-family: ;
+} */
+
+.backgroundFooter{
+  background: rgb(221, 220, 220);
+  height: 110px;
+}
+
+.miZapato{
+  font-size: 18px
+}
+
+.logoFooter{
+    font-size: 25px;
+}
+
+.spanfooter{
+font-weight: bold;
+}
+
+.imgCol{
+  height: 400px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.imgHome{
+  height: 150px;
+  width: 150px;
+  border: 1px solid rgb(0, 0, 0);
+  object-fit: contain;
+  
+}
+.logo-search{
+  margin: 10px 0 0 10px;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 25%;
+}
+
+.txt-envio{
+  color: #8B0000;
+  font-size: 15px;
+}
+#buscar{
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+ul li{
+  list-style: none;
+  text-decoration: none;
+}
+
+form {
+  border: 2px solid #ccc;
+  display: inline-block;
+  padding: 2px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form > input {
+  border: none;
+}
+
+form > button {
+  background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 4px 10px;
+  font-size: 25px;
+  width: 60px;
+}
+
+.categoriaFooter{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.imgcolumnas{
+  display:flex;
+  align-items: center;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-banner {
+    height:300px;
+    width:1240px;
+    object-fit:cover;   
+    overflow: hidden; 
+}
+
+.slider1{
+  overflow:hidden;
+}
+
+header{
+  overflow: hidden;
+}
+
+.completatulook{
+  background: grey;
+  padding: 5px;
+}
+
+.agregarCarrito{
+  align-items: center;
+  background: rgb(153, 63, 63);
+  border: none;
+  color: white;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  padding: 8px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.precio{
+  color: rgb(153, 63, 63);
+}
+
+.button-container{
+background: rgb(160, 155, 155);
+color: rgb(214, 212, 212);
+display:flex;
+justify-content: center;
+text-decoration: none;
+width:100px;
+padding: 5px;
+position: relative;
+margin-bottom: 50px;
+}
+
+.button-container a{
+text-decoration: none;
+background-color:  rgb(226, 224, 224);
+color:black;
+text-transform:uppercase;
+padding: 1em 1.5em;
+}
+
+
+.button-container2{
+display:inline-block;
+position:relative;
+}
+
+.button-container2 a{
+text-decoration: none;
+background-color: rgb(226, 224, 224);
+color:black;
+text-transform:uppercase;
+padding:1em 1.5em;
+}
+
+.product-header {
+    display: flex;
+}
+
+/** product images **/
+/* .product-photos {
+    /* width: 50%; 
+} */
+
+.product-img>img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-gallery {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.product-gallery img {
+    width: 100px;
+    object-fit: contain;
+}
+
+
+/** details **/
+.product-details {
+  /* width: 40%; */
+  margin: 0 auto;
+}
+
+.product-info,
+.product-color,
+.product-size {
+    margin-bottom: 30px;
+}
+
+.product-info h1 {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+}
+
+.product-details h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.product-info .price {
+    color: brown;
+    font-size: 22px;
+}
+
+.product-info .code {
+    color: #ddd;
+    font-weight: 900;
+}
+
+/** color **/
+.product-color-item {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.product-color-item>img {
+    width: 100%;
+}
+
+/** size **/
+.product-size__list {
+    display: grid;
+    grid-template-rows: 60px 60px;
+    grid-template-columns: repeat(auto-fit, 60px);
+    grid-gap: 12px;
+    margin-bottom: 20px;
+}
+
+.product-size__list>span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.product-size a {
+    color: #ddd
+}
+
+/** actions **/
+.btn-buy {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 12px 40px;
+}
+
+.product-actions button {
+  color: #ddd;
+    background-color: white;
+    padding: 12px;
+    border: 0;
+}
+.product-card {
+      width: 240px;
+    }
+    .product-card img {
+      width: 240px;
+      height: 240px;
+      border-radius: 20px;
+    object-fit: cover;
+  }
+
+.divBorde{
+  border: 1px solid rgb(85, 82, 82);
+  width: 100%;
+  padding: 15px;
+  margin-bottom:50px;
+}
+
+.titulos{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heart{
+  opacity: 60%;
+}
+
+.fotoZapato{
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.product-gallery-card {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: none;
+}
+
+.icon-fav {
+  font-size: 23px;
+  color: #ddd;
+}
+
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+} */
+
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+} */

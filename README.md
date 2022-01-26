@@ -17,16 +17,3 @@ Tecnologías utilizadas en este proyecto: HTML5 , CSS3 y Javascript con Bootstra
 ## Fecha de entrega
 
 La prueba tiene una duración de 3 a 4 días para su entrega final. 
-
-## Home
-
-<img src="home.png">    
-
-## Producto
-
-<img src="producto.png">   
-
-## Categoría
-
-<img src="categoria.png">   
-
